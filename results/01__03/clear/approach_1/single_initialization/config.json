@@ -1,0 +1,36 @@
+{
+  "approach": "approach_1",
+  "frame_range": {
+    "count": 21,
+    "end_exclusive": 26,
+    "start": 5
+  },
+  "parameters": {
+    "candidate_selection": "lowest symmetric Chamfer distance",
+    "convergence_tolerance": 1e-06,
+    "icp_type": "rigid point-to-point",
+    "independent_per_frame": true,
+    "initialization": "PCA orientation plus centroid",
+    "max_correspondence_distance_m": 0.1,
+    "max_iterations": 50,
+    "orientation_candidate_count": 1,
+    "orientation_policy": "estimated by rigid ICP",
+    "sample_seed": 42,
+    "scale": 1.0,
+    "template_surface_samples": 5000,
+    "uses_previous_frame": false
+  },
+  "run_name": "clear",
+  "scale_policy": "constant",
+  "schema_version": 1,
+  "sequence_id": "01__03",
+  "trajectory_file": "trajectory.npz",
+  "trajectory_validation": {
+    "max_determinant_error": 1.199040866595169e-14,
+    "max_orthogonality_error": 1.4161059016499244e-14,
+    "maximum_scale": 1.0,
+    "minimum_scale": 1.0,
+    "n_frames": 21
+  },
+  "variant": "single_initialization"
+}

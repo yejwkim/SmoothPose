@@ -1,0 +1,88 @@
+{
+  "sequence_id": "01__03",
+  "trajectory": "/Users/home/Desktop/UT/Side/SmoothPose/results/01__03/occlusion/approach_1/multi_initialization/trajectory.npz",
+  "sequence_n_frames": 531,
+  "evaluated_n_frames": 21,
+  "complete_sequence": false,
+  "frame_range": {
+    "start": 275,
+    "end_exclusive": 296
+  },
+  "mesh_sampling": {
+    "count": 20000,
+    "seed": 42,
+    "method": "area-weighted uniform triangle sampling"
+  },
+  "chamfer_definition": "0.5 * (mean observation-to-mesh nearest-neighbor Euclidean distance + mean mesh-to-observation nearest-neighbor Euclidean distance), reported in centimeters without squaring",
+  "rotation_jump_threshold_degrees": 60.0,
+  "symmetry_shape_tolerance_ratio": 0.03,
+  "trajectory_validation": {
+    "n_frames": 21,
+    "max_orthogonality_error": 1.7068327668094304e-14,
+    "max_determinant_error": 1.3766765505351941e-14,
+    "minimum_scale": 1.0,
+    "maximum_scale": 1.0
+  },
+  "silhouette_iou": {
+    "mean": 0.7323788615534805,
+    "median": 0.7725602755453501,
+    "min": 0.0,
+    "max": 0.8520736305167443
+  },
+  "chamfer_cm": {
+    "mean": 4.642792014098273,
+    "median": 2.4065423557879524,
+    "min": 1.9643470016129032,
+    "max": 38.34619362040106
+  },
+  "observation_to_mesh_cm": {
+    "mean": 5.794777425794329,
+    "median": 2.4266513607638776,
+    "min": 1.9599531253831686,
+    "max": 50.919280171816716
+  },
+  "rotation_change_deg": {
+    "mean": 120.90808647173802,
+    "median": 147.50034239464213,
+    "min": 9.36348137545904,
+    "max": 178.7107106025462
+  },
+  "translation_change_cm": {
+    "mean": 13.310925413315289,
+    "median": 5.002337730872481,
+    "min": 0.8840769392407712,
+    "max": 86.71710562583674
+  },
+  "large_rotation_jump_frames": [
+    276,
+    280,
+    281,
+    282,
+    283,
+    285,
+    286,
+    287,
+    288,
+    289,
+    290,
+    293,
+    294,
+    295
+  ],
+  "possible_symmetry_flip_frames": [
+    276,
+    280,
+    281,
+    282,
+    283,
+    285,
+    286,
+    287,
+    288,
+    289,
+    290,
+    293,
+    294,
+    295
+  ]
+}

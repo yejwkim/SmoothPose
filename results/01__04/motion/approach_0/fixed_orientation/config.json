@@ -1,0 +1,26 @@
+{
+  "approach": "approach_0",
+  "frame_range": {
+    "count": 21,
+    "end_exclusive": 87,
+    "start": 66
+  },
+  "parameters": {
+    "orientation": "identity",
+    "scale": 1.0,
+    "translation": "align observed and template surface centroids"
+  },
+  "run_name": "motion",
+  "scale_policy": "constant",
+  "schema_version": 1,
+  "sequence_id": "01__04",
+  "trajectory_file": "trajectory.npz",
+  "trajectory_validation": {
+    "max_determinant_error": 0.0,
+    "max_orthogonality_error": 0.0,
+    "maximum_scale": 1.0,
+    "minimum_scale": 1.0,
+    "n_frames": 21
+  },
+  "variant": "fixed_orientation"
+}

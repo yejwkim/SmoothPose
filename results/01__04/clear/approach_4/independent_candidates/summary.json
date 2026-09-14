@@ -1,0 +1,82 @@
+{
+  "sequence_id": "01__04",
+  "trajectory": "/Users/home/Desktop/UT/Side/SmoothPose/results/01__04/clear/approach_4/independent_candidates/trajectory.npz",
+  "sequence_n_frames": 181,
+  "evaluated_n_frames": 21,
+  "complete_sequence": false,
+  "frame_range": {
+    "start": 9,
+    "end_exclusive": 30
+  },
+  "mesh_sampling": {
+    "count": 20000,
+    "seed": 42,
+    "method": "area-weighted uniform triangle sampling"
+  },
+  "chamfer_definition": "0.5 * (mean observation-to-mesh nearest-neighbor Euclidean distance + mean mesh-to-observation nearest-neighbor Euclidean distance), reported in centimeters without squaring",
+  "rotation_jump_threshold_degrees": 60.0,
+  "symmetry_shape_tolerance_ratio": 0.03,
+  "trajectory_validation": {
+    "n_frames": 21,
+    "max_orthogonality_error": 4.0460247154734806e-14,
+    "max_determinant_error": 3.175237850427948e-14,
+    "minimum_scale": 1.0,
+    "maximum_scale": 1.0
+  },
+  "silhouette_iou": {
+    "mean": 0.7032970598501822,
+    "median": 0.6957866783475237,
+    "min": 0.6643027270051115,
+    "max": 0.7702503681885126
+  },
+  "chamfer_cm": {
+    "mean": 1.6165443806863906,
+    "median": 1.6276979962247293,
+    "min": 1.3498212984645954,
+    "max": 1.9924242084416783
+  },
+  "observation_to_mesh_cm": {
+    "mean": 1.8269752779751525,
+    "median": 1.7896137612327718,
+    "min": 1.45640099423985,
+    "max": 2.4435337497624445
+  },
+  "rotation_change_deg": {
+    "mean": 78.17644479833432,
+    "median": 87.16589462148596,
+    "min": 2.837386391386079,
+    "max": 173.3541852964438
+  },
+  "translation_change_cm": {
+    "mean": 3.880291264505474,
+    "median": 2.1685972162344314,
+    "min": 0.48607690864316866,
+    "max": 15.684503911362283
+  },
+  "large_rotation_jump_frames": [
+    10,
+    11,
+    14,
+    16,
+    17,
+    21,
+    22,
+    23,
+    26,
+    28,
+    29
+  ],
+  "possible_symmetry_flip_frames": [
+    10,
+    11,
+    14,
+    16,
+    17,
+    21,
+    22,
+    23,
+    26,
+    28,
+    29
+  ]
+}

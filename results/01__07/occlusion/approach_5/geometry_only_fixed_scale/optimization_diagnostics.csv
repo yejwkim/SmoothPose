@@ -1,0 +1,3 @@
+outer_iteration,cost,optimality,function_evaluations,status,success,geometry_correspondences,frames_without_geometry,mask_correspondences,scale,message
+1,0.09606266128844432,4.543488523050593e-07,4,2,True,8152,0,0,1.0,`ftol` termination condition is satisfied.
+2,0.09204170903187459,1.099037704326837e-07,5,2,True,8184,0,0,1.0,`ftol` termination condition is satisfied.

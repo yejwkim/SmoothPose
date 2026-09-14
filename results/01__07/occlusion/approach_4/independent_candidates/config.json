@@ -1,0 +1,40 @@
+{
+  "approach": "approach_4",
+  "frame_range": {
+    "count": 21,
+    "end_exclusive": 129,
+    "start": 108
+  },
+  "parameters": {
+    "candidate_count_per_frame": 24,
+    "candidate_set_shared_between_variants": true,
+    "candidate_source": "Approach 1B PCA orientations plus rigid ICP",
+    "convergence_tolerance": 1e-06,
+    "data_cost": "symmetric Chamfer divided by template diagonal",
+    "max_correspondence_distance_m": 0.1,
+    "max_iterations": 50,
+    "orientation_policy": "24 proper PCA orientations",
+    "rotation_normalization_degrees": 30.0,
+    "rotation_transition_weight": 0.01,
+    "sample_seed": 42,
+    "scale": 1.0,
+    "selection": "independent lowest normalized Chamfer",
+    "template_diagonal_m": 1.346512877154405,
+    "template_surface_samples": 5000,
+    "translation_normalization_meters": 0.1,
+    "translation_transition_weight": 0.01
+  },
+  "run_name": "occlusion",
+  "scale_policy": "constant",
+  "schema_version": 1,
+  "sequence_id": "01__07",
+  "trajectory_file": "trajectory.npz",
+  "trajectory_validation": {
+    "max_determinant_error": 2.4424906541753444e-14,
+    "max_orthogonality_error": 2.978107591027279e-14,
+    "maximum_scale": 1.0,
+    "minimum_scale": 1.0,
+    "n_frames": 21
+  },
+  "variant": "independent_candidates"
+}

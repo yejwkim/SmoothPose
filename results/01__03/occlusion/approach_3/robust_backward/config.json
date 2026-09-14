@@ -1,0 +1,40 @@
+{
+  "approach": "approach_3",
+  "frame_range": {
+    "count": 21,
+    "end_exclusive": 296,
+    "start": 275
+  },
+  "parameters": {
+    "convergence_tolerance": 1e-06,
+    "correspondence_direction": "observation-to-template",
+    "icp_type": "translation-only point-to-point",
+    "max_correspondence_distance_m": 0.1,
+    "max_iterations": 50,
+    "minimum_correspondences": 20,
+    "orientation_policy": "fixed identity",
+    "robust_rejection": "distance gate followed by trimming",
+    "sample_seed": 42,
+    "sequential_initialization": true,
+    "source_approach": "approach_1",
+    "source_trajectory": "/Users/home/Desktop/UT/Side/SmoothPose/results/01__03/occlusion/approach_1/translation_only/trajectory.npz",
+    "source_usage": "boundary pose only",
+    "source_variant": "translation_only",
+    "template_surface_samples": 5000,
+    "tracking_direction": "backward",
+    "trim_fraction": 0.8
+  },
+  "run_name": "occlusion",
+  "scale_policy": "constant",
+  "schema_version": 1,
+  "sequence_id": "01__03",
+  "trajectory_file": "trajectory.npz",
+  "trajectory_validation": {
+    "max_determinant_error": 0.0,
+    "max_orthogonality_error": 0.0,
+    "maximum_scale": 1.0,
+    "minimum_scale": 1.0,
+    "n_frames": 21
+  },
+  "variant": "robust_backward"
+}

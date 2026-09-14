@@ -1,0 +1,29 @@
+{
+  "approach": "approach_0",
+  "frame_range": {
+    "count": 21,
+    "end_exclusive": 273,
+    "start": 252
+  },
+  "parameters": {
+    "orientation": "independent per-frame PCA with deterministic axis signs",
+    "scale": 1.0,
+    "template_pca_sample_seed": 42,
+    "template_pca_surface_samples": 20000,
+    "temporal_axis_disambiguation": false,
+    "translation": "align observed and template surface centroids"
+  },
+  "run_name": "motion",
+  "scale_policy": "constant",
+  "schema_version": 1,
+  "sequence_id": "01__01",
+  "trajectory_file": "trajectory.npz",
+  "trajectory_validation": {
+    "max_determinant_error": 7.771561172376096e-16,
+    "max_orthogonality_error": 1.1395952631186086e-15,
+    "maximum_scale": 1.0,
+    "minimum_scale": 1.0,
+    "n_frames": 21
+  },
+  "variant": "pca_orientation"
+}

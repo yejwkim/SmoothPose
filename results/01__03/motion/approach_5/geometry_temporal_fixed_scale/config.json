@@ -1,0 +1,53 @@
+{
+  "approach": "approach_5",
+  "frame_range": {
+    "count": 21,
+    "end_exclusive": 341,
+    "start": 320
+  },
+  "parameters": {
+    "acceleration_weight": 0.2,
+    "fit_sequence_scale": false,
+    "geometry_correspondence_direction": "observation-to-template",
+    "geometry_robust_loss": "soft_l1",
+    "geometry_scale_meters": 0.05,
+    "geometry_weight": 1.0,
+    "mask_contour_sample_count": 120,
+    "mask_scale_pixels": 50.0,
+    "mask_term": "disabled",
+    "mask_weight": 0.2,
+    "max_correspondence_distance": 0.1,
+    "max_nfev": 30,
+    "observation_samples_per_frame": 400,
+    "optimizer": "alternating correspondences plus sparse scipy least_squares",
+    "outer_iterations": 2,
+    "robust_loss": "soft_l1",
+    "rotation_acceleration_scale_degrees": 15.0,
+    "rotation_parameterization": "left-multiplied local rotation vectors",
+    "rotation_velocity_scale_degrees": 30.0,
+    "sample_seed": 42,
+    "scale_lower": 0.7,
+    "scale_upper": 1.3,
+    "source_approach": "approach_3",
+    "source_trajectory": "/Users/home/Desktop/UT/Side/SmoothPose/results/01__03/motion/approach_3/sequential_forward/trajectory.npz",
+    "source_variant": "sequential_forward",
+    "template_surface_samples": 2000,
+    "temporal_terms": true,
+    "translation_acceleration_scale_meters": 0.05,
+    "translation_velocity_scale_meters": 0.1,
+    "velocity_weight": 0.1
+  },
+  "run_name": "motion",
+  "scale_policy": "constant",
+  "schema_version": 1,
+  "sequence_id": "01__03",
+  "trajectory_file": "trajectory.npz",
+  "trajectory_validation": {
+    "max_determinant_error": 4.440892098500626e-16,
+    "max_orthogonality_error": 3.8460570378517973e-16,
+    "maximum_scale": 1.0,
+    "minimum_scale": 1.0,
+    "n_frames": 21
+  },
+  "variant": "geometry_temporal_fixed_scale"
+}

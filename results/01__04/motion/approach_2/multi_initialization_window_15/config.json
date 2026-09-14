@@ -1,0 +1,32 @@
+{
+  "approach": "approach_2",
+  "frame_range": {
+    "count": 21,
+    "end_exclusive": 87,
+    "start": 66
+  },
+  "parameters": {
+    "refits_observations": false,
+    "rotation_filter": "triangularly weighted Markley quaternion mean",
+    "source_approach": "approach_1",
+    "source_trajectory": "/Users/home/Desktop/UT/Side/SmoothPose/results/01__04/motion/approach_1/multi_initialization/trajectory.npz",
+    "source_variant": "multi_initialization",
+    "translation_filter": "Savitzky-Golay",
+    "translation_polynomial_order": 2,
+    "window_name": "long",
+    "window_size_frames": 15
+  },
+  "run_name": "motion",
+  "scale_policy": "constant",
+  "schema_version": 1,
+  "sequence_id": "01__04",
+  "trajectory_file": "trajectory.npz",
+  "trajectory_validation": {
+    "max_determinant_error": 8.881784197001252e-16,
+    "max_orthogonality_error": 1.154023052235154e-15,
+    "maximum_scale": 1.0,
+    "minimum_scale": 1.0,
+    "n_frames": 21
+  },
+  "variant": "multi_initialization_window_15"
+}

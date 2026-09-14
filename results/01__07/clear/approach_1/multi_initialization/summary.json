@@ -1,0 +1,58 @@
+{
+  "sequence_id": "01__07",
+  "trajectory": "/Users/home/Desktop/UT/Side/SmoothPose/results/01__07/clear/approach_1/multi_initialization/trajectory.npz",
+  "sequence_n_frames": 371,
+  "evaluated_n_frames": 21,
+  "complete_sequence": false,
+  "frame_range": {
+    "start": 29,
+    "end_exclusive": 50
+  },
+  "mesh_sampling": {
+    "count": 20000,
+    "seed": 42,
+    "method": "area-weighted uniform triangle sampling"
+  },
+  "chamfer_definition": "0.5 * (mean observation-to-mesh nearest-neighbor Euclidean distance + mean mesh-to-observation nearest-neighbor Euclidean distance), reported in centimeters without squaring",
+  "rotation_jump_threshold_degrees": 60.0,
+  "symmetry_shape_tolerance_ratio": 0.03,
+  "trajectory_validation": {
+    "n_frames": 21,
+    "max_orthogonality_error": 1.7509370710048e-14,
+    "max_determinant_error": 1.4210854715202004e-14,
+    "minimum_scale": 1.0,
+    "maximum_scale": 1.0
+  },
+  "silhouette_iou": {
+    "mean": 0.8282174151183013,
+    "median": 0.8258324040146566,
+    "min": 0.7880923785710067,
+    "max": 0.8735530724015488
+  },
+  "chamfer_cm": {
+    "mean": 2.478835570171338,
+    "median": 2.448778210494255,
+    "min": 2.04957988709063,
+    "max": 2.939344390351215
+  },
+  "observation_to_mesh_cm": {
+    "mean": 2.5549997966230986,
+    "median": 2.5124987114992114,
+    "min": 2.1392834722991814,
+    "max": 3.0595915731322676
+  },
+  "rotation_change_deg": {
+    "mean": 1.8870009918436987,
+    "median": 1.9393195555376386,
+    "min": 0.36138000110956925,
+    "max": 3.3772216983074843
+  },
+  "translation_change_cm": {
+    "mean": 2.460022043198735,
+    "median": 1.587249590362267,
+    "min": 0.6693519431846253,
+    "max": 7.294651237413902
+  },
+  "large_rotation_jump_frames": [],
+  "possible_symmetry_flip_frames": []
+}

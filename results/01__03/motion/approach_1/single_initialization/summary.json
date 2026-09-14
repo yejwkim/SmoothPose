@@ -1,0 +1,86 @@
+{
+  "sequence_id": "01__03",
+  "trajectory": "/Users/home/Desktop/UT/Side/SmoothPose/results/01__03/motion/approach_1/single_initialization/trajectory.npz",
+  "sequence_n_frames": 531,
+  "evaluated_n_frames": 21,
+  "complete_sequence": false,
+  "frame_range": {
+    "start": 320,
+    "end_exclusive": 341
+  },
+  "mesh_sampling": {
+    "count": 20000,
+    "seed": 42,
+    "method": "area-weighted uniform triangle sampling"
+  },
+  "chamfer_definition": "0.5 * (mean observation-to-mesh nearest-neighbor Euclidean distance + mean mesh-to-observation nearest-neighbor Euclidean distance), reported in centimeters without squaring",
+  "rotation_jump_threshold_degrees": 60.0,
+  "symmetry_shape_tolerance_ratio": 0.03,
+  "trajectory_validation": {
+    "n_frames": 21,
+    "max_orthogonality_error": 1.0355080973491909e-14,
+    "max_determinant_error": 6.661338147750939e-15,
+    "minimum_scale": 1.0,
+    "maximum_scale": 1.0
+  },
+  "silhouette_iou": {
+    "mean": 0.8201349450031257,
+    "median": 0.824978317432784,
+    "min": 0.7596044739828173,
+    "max": 0.8569268569268569
+  },
+  "chamfer_cm": {
+    "mean": 2.4195272927937985,
+    "median": 2.4357546289147076,
+    "min": 1.5794489367693971,
+    "max": 3.4768628519369864
+  },
+  "observation_to_mesh_cm": {
+    "mean": 2.6275653593543518,
+    "median": 2.627712448075038,
+    "min": 1.5794220730661377,
+    "max": 4.668939302548401
+  },
+  "rotation_change_deg": {
+    "mean": 94.34849782773891,
+    "median": 92.0863408396805,
+    "min": 5.432771739904555,
+    "max": 176.24713519405114
+  },
+  "translation_change_cm": {
+    "mean": 3.8161273078679785,
+    "median": 3.6959178213294073,
+    "min": 1.6744219541005128,
+    "max": 6.427089932019908
+  },
+  "large_rotation_jump_frames": [
+    321,
+    322,
+    323,
+    324,
+    327,
+    328,
+    331,
+    332,
+    333,
+    334,
+    337,
+    339,
+    340
+  ],
+  "possible_symmetry_flip_frames": [
+    321,
+    322,
+    323,
+    324,
+    327,
+    328,
+    331,
+    332,
+    333,
+    334,
+    337,
+    339,
+    340
+  ]
+}

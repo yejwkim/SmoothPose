@@ -1,0 +1,82 @@
+{
+  "sequence_id": "01__04",
+  "trajectory": "/Users/home/Desktop/UT/Side/SmoothPose/results/01__04/clear/approach_1/multi_initialization/trajectory.npz",
+  "sequence_n_frames": 181,
+  "evaluated_n_frames": 21,
+  "complete_sequence": false,
+  "frame_range": {
+    "start": 9,
+    "end_exclusive": 30
+  },
+  "mesh_sampling": {
+    "count": 20000,
+    "seed": 42,
+    "method": "area-weighted uniform triangle sampling"
+  },
+  "chamfer_definition": "0.5 * (mean observation-to-mesh nearest-neighbor Euclidean distance + mean mesh-to-observation nearest-neighbor Euclidean distance), reported in centimeters without squaring",
+  "rotation_jump_threshold_degrees": 60.0,
+  "symmetry_shape_tolerance_ratio": 0.03,
+  "trajectory_validation": {
+    "n_frames": 21,
+    "max_orthogonality_error": 3.402269501302766e-14,
+    "max_determinant_error": 2.8199664825478976e-14,
+    "minimum_scale": 1.0,
+    "maximum_scale": 1.0
+  },
+  "silhouette_iou": {
+    "mean": 0.7032970598501822,
+    "median": 0.6957866783475237,
+    "min": 0.6643027270051115,
+    "max": 0.7702503681885126
+  },
+  "chamfer_cm": {
+    "mean": 1.6165443806863937,
+    "median": 1.6276979962247276,
+    "min": 1.349821298464599,
+    "max": 1.9924242084416515
+  },
+  "observation_to_mesh_cm": {
+    "mean": 1.8269752779751585,
+    "median": 1.7896137612327845,
+    "min": 1.4564009942398528,
+    "max": 2.443533749762398
+  },
+  "rotation_change_deg": {
+    "mean": 78.17644479833469,
+    "median": 87.165894621486,
+    "min": 2.837386391385051,
+    "max": 173.35418529644312
+  },
+  "translation_change_cm": {
+    "mean": 3.8802912645052308,
+    "median": 2.1685972162345166,
+    "min": 0.486076908643567,
+    "max": 15.684503911361592
+  },
+  "large_rotation_jump_frames": [
+    10,
+    11,
+    14,
+    16,
+    17,
+    21,
+    22,
+    23,
+    26,
+    28,
+    29
+  ],
+  "possible_symmetry_flip_frames": [
+    10,
+    11,
+    14,
+    16,
+    17,
+    21,
+    22,
+    23,
+    26,
+    28,
+    29
+  ]
+}

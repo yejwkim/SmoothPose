@@ -1,0 +1,94 @@
+{
+  "sequence_id": "01__03",
+  "trajectory": "/Users/home/Desktop/UT/Side/SmoothPose/results/01__03/clear/approach_1/multi_initialization/trajectory.npz",
+  "sequence_n_frames": 531,
+  "evaluated_n_frames": 21,
+  "complete_sequence": false,
+  "frame_range": {
+    "start": 5,
+    "end_exclusive": 26
+  },
+  "mesh_sampling": {
+    "count": 20000,
+    "seed": 42,
+    "method": "area-weighted uniform triangle sampling"
+  },
+  "chamfer_definition": "0.5 * (mean observation-to-mesh nearest-neighbor Euclidean distance + mean mesh-to-observation nearest-neighbor Euclidean distance), reported in centimeters without squaring",
+  "rotation_jump_threshold_degrees": 60.0,
+  "symmetry_shape_tolerance_ratio": 0.03,
+  "trajectory_validation": {
+    "n_frames": 21,
+    "max_orthogonality_error": 1.2929259477671053e-14,
+    "max_determinant_error": 1.0436096431476471e-14,
+    "minimum_scale": 1.0,
+    "maximum_scale": 1.0
+  },
+  "silhouette_iou": {
+    "mean": 0.8749118658778912,
+    "median": 0.9097043701799485,
+    "min": 0.5870004037141704,
+    "max": 0.9548111866013588
+  },
+  "chamfer_cm": {
+    "mean": 1.6703299182351135,
+    "median": 1.3466615039358176,
+    "min": 0.5727268988226506,
+    "max": 4.939263117605921
+  },
+  "observation_to_mesh_cm": {
+    "mean": 2.65902305319889,
+    "median": 1.9260052385505038,
+    "min": 0.590616406506355,
+    "max": 8.803562665629629
+  },
+  "rotation_change_deg": {
+    "mean": 130.66655867095523,
+    "median": 151.1612517943567,
+    "min": 10.300972253967782,
+    "max": 179.98551285106086
+  },
+  "translation_change_cm": {
+    "mean": 5.266674603823576,
+    "median": 4.4835608638822695,
+    "min": 0.747174461176406,
+    "max": 12.150180442339593
+  },
+  "large_rotation_jump_frames": [
+    6,
+    7,
+    8,
+    9,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ],
+  "possible_symmetry_flip_frames": [
+    6,
+    7,
+    8,
+    9,
+    11,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25
+  ]
+}
