@@ -1,0 +1,8 @@
+PLAN.md
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+.mypy_cache/
+outputs/
+results/
